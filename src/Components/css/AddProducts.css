@@ -1,0 +1,245 @@
+.order_table3 {
+  border-radius: 4px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.container_right1 {
+  width: 80%;
+  margin: 0 auto;
+}
+.order_header2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-right: 50px;
+  align-items: center;
+}
+.icon__shop {
+  background-color: #f2f2f2;
+  padding: 5px;
+  cursor: pointer;
+}
+.order_header5 {
+  border: 1px solid grey;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+.order_header5:hover {
+  background-color: #dddcdc;
+}
+
+.icon111:hover {
+  color: red;
+}
+
+.container_right2 {
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.container_right2 h3 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.add_products {
+  padding-left: 200px;
+  padding-bottom: 20px;
+}
+
+.add_products td .label {
+  color: black;
+  text-align: right;
+  padding-top: 30px;
+  font-weight: 500 !important;
+}
+.add_products .label1 {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+.add_products .label1 input {
+  height: 40px;
+  width: 500px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(224, 224, 224);
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.label1 button {
+  color: #fff;
+  position: relative;
+  overflow: visible;
+  outline: 0;
+  background: #ee4d2d;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 30px;
+  font-size: 15px;
+}
+.label1 button:hover {
+  background: #f37259;
+}
+
+.label3 {
+  height: 45px;
+  width: 515px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(224, 224, 224);
+  padding-left: 10px;
+  font-size: 18px;
+}
+.table tr {
+  padding-bottom: 20px;
+}
+.infoProduct {
+  border: 1px solid #ccc;
+  padding: 8px;
+  height: 45px;
+  width: 515px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.list-product {
+  text-align: center;
+}
+.list_product {
+  width: 100%;
+}
+
+.list_product th,
+.list_product td {
+  padding: 10px;
+  text-align: center;
+}
+
+.list_product th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.list_product tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.list_product tbody tr:hover {
+  background-color: #e6e6e6;
+}
+.container_right1 {
+  min-height: 100vh;
+}
+.btn-addVoucher {
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #ffd400;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.btn-addVoucher:hover {
+  background-color: lightgreen;
+  color: red;
+  transform: scale(1.2);
+}
+
+.btn-addVoucher:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #ffd400);
+  pointer-events: none;
+  animation: textReveal 2s linear infinite;
+}
+
+@keyframes textReveal {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.form-row {
+  margin-bottom: 20px;
+}
+
+.voucher-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.name-voucher,
+.discount-voucher {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.name-voucher {
+  width: 200px;
+}
+
+.discount-voucher {
+  width: 100px;
+}
+.btn-order {
+  appearance: none;
+  background-color: transparent;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 3em;
+  min-width: 7rem;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-color: #ffd400;
+}
+.btn-view {
+  appearance: none;
+  background-color: transparent;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  color: #ffd400;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 3em;
+  min-width: 7rem;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-color: #3b3b3b;
+}

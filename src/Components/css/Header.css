@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #ffd400;
+  font-size: 12px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999999999999;
+}
+.header__top {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0 0;
+}
+.header_top-container {
+  display: flex;
+  height: 50px;
+  padding: 10px 350px 20px 350px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+.header_address {
+  width: fit-content;
+  height: fit-content;
+  flex-shrink: 0;
+  padding: 6px 15.83px 6px 16.02px;
+  border-radius: 4px;
+  background: rgba(255, 172, 10, 0.6);
+}
+.header_search {
+  height: 48px;
+  display: inline-flex;
+  padding: 0px 10px 0px 0px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #fff;
+}
+.input-search {
+  display: flex;
+  width: 245.28px;
+  height: 30px;
+  padding: 0px 180.53px 0px 0px;
+  align-items: center;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+.button_search {
+  font-size: large !important;
+  border: none;
+  background-color: #fff;
+}
+.name-order {
+  width: fit-content;
+  height: fit-content;
+  padding: 6px 15.83px 6px 16.02px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: rgba(255, 172, 10, 0.6);
+}
+.header_cart {
+  display: inline-flex;
+  padding: 6px 15.83px 6px 16.02px;
+  justify-content: center;
+  align-items: center;
+  gap: 11.34px;
+  border-radius: 4px;
+  background: rgba(255, 172, 10, 0.6) !important;
+}
+.header__main {
+  width: 65%;
+  margin: 0 auto;
+}
+.main-menu {
+  color: #333333;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  line-height: 18px;
+  font-weight: 500;
+}
+.main-menu a {
+  text-decoration: none;
+}
+.main-menu li {
+  color: #333333;
+  display: list-item;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px;
+  text-align: left;
+  list-style: none;
+}
+.btn-authen {
+  border: none;
+  background-color: #ffac0a;
+}

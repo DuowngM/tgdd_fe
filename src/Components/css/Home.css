@@ -1,0 +1,121 @@
+.big_banner {
+  margin-top: -18px;
+}
+.main__container {
+  width: 100%;
+  height: fit-content;
+  margin-top: -100px;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+}
+.home__slider {
+  width: 80%;
+  margin: 0 auto;
+}
+.slick-dots {
+  display: none !important;
+}
+.option-promo {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  width: 1200px;
+  height: 100px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  font-weight: 500;
+  font-size: 15px;
+  padding-top: 20px;
+}
+.option-promo li {
+  display: flex;
+  width: 285px;
+  height: 100px;
+  padding: 0px 53.45px 0px 53.44px;
+  justify-content: center;
+  align-items: center;
+  gap: 13.89px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #fff;
+}
+.option-promo li a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+.option-promo img {
+  color: #288ad6;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  text-align: center;
+}
+.option-promo span {
+  color: #222222;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0px 0px 0px 10px;
+  text-align: left;
+}
+
+.option-promo li p,
+.option-promo li span {
+  margin: 0;
+}
+.hot-deal {
+  padding-top: 30px;
+  width: 67%;
+  margin: 0 auto;
+}
+.list-product {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.element-product {
+  width: 20%;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.element-product:hover {
+  z-index: 1;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.53);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.53);
+}
+
+.element-product:hover {
+  transform: scale(1.1);
+}
+
+.ant-card-body {
+  width: 192px;
+  height: 172px;
+}
+.btn-disabled {
+  background-color: silver !important;
+}
+.main-menu-product {
+  width: 80%;
+  margin: 0 auto;
+}
+.filter-products {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.filter-products select {
+  width: 250px;
+  height: 30px;
+  outline: none;
+  text-align: center;
+}

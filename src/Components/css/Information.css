@@ -1,0 +1,195 @@
+.container_profile {
+  display: flex;
+  height: 800px;
+}
+
+.profile_left {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.avatar_left {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avatarrr {
+  margin-right: 10px;
+}
+
+.avatar_left1 {
+  font-weight: bold;
+}
+
+.option_profile {
+  margin-bottom: 10px;
+}
+
+.profile_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px 20px;
+  height: 650px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 1px 4px 15px 5px rgba(0, 0, 0, 0.55);
+  width: 50%;
+}
+
+.profile_right h1 {
+  margin-top: 5px;
+}
+
+.profile_right label {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.profile_right input {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.39);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.profile_right div {
+  margin: 5px;
+}
+
+.profile_right button {
+  padding: 10px;
+  background-color: #ffe45c;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition-duration: 0.7s;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.profile_right button:hover {
+  transition-duration: 0.3s;
+  background-color: #ffe45cb5;
+}
+
+.manager {
+  line-height: 10px;
+}
+.manager hr {
+  color: rgb(234, 231, 231);
+}
+
+.main_profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main_left {
+  flex: 0.7;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main_left .label {
+  color: rgba(85, 85, 85, 0.8);
+  text-align: right;
+  padding-top: 30px;
+}
+.main_left .label1 {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+.main_left .label1 input {
+  height: 40px;
+  width: 500px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(224, 224, 224);
+  padding-left: 10px;
+  font-size: 18px;
+}
+.radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.radio input {
+  width: 20px !important;
+  height: 20px !important;
+}
+.radio label {
+  padding-left: 6px;
+  padding-top: 4px;
+}
+
+.manager {
+  line-height: 10px;
+}
+.manager hr {
+  color: rgb(234, 231, 231);
+}
+.active {
+  background-color: white !important;
+}
+.table {
+  text-align: center;
+}
+.btn-save {
+  margin-top: 30px;
+  margin-right: 150px;
+  width: 100px;
+  height: 50px;
+}
+.order-user {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-user th,
+.order-user td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-user th {
+  background-color: #f2f2f2;
+}
+
+.order-user tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.order-user tbody tr:hover {
+  background-color: #f5f5f5;
+}
+.order-details {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-details th,
+.order-details td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-details th {
+  background-color: #f2f2f2;
+}
+
+.order-details tr:hover {
+  background-color: #f5f5f5;
+}
+.modal-content {
+  width: 700px !important;
+}

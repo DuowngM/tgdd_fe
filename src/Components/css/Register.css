@@ -1,0 +1,49 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  width: 1200px;
+  height: 369px;
+  padding: 0px 53.34px 0px 53.33px;
+  justify-content: center;
+  align-items: center;
+  gap: 53.33px;
+  flex-shrink: 0;
+  padding-top: 200px;
+}
+.step1 {
+  display: flex;
+  width: 500px;
+  padding: 85px 99px 110px 99px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.11);
+}
+#frmGetVerifyCode input {
+  display: flex;
+  width: 302px;
+  padding: 16.5px 51px 14.5px 51px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.btn-continue {
+  display: flex;
+  width: 302px;
+  height: 50px;
+  padding: 15px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: #f96f3a;
+  border: none;
+  color: #fff;
+}

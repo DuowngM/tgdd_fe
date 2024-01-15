@@ -1,0 +1,163 @@
+.footer {
+  border-top: 4px solid var(--primary-color);
+  margin-top: 50px;
+}
+
+.main-footer {
+  background-color: #f9f9f9;
+}
+.hr {
+  width: 100%;
+  border: 2.5px solid rgb(238, 77, 45);
+}
+
+.main-footer-info {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+.footer__heading {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  padding: 0;
+  list-style: none;
+  color: grey;
+}
+
+.footer-list li:hover {
+  color: orangered;
+}
+
+.footer-item-link {
+  text-decoration: none;
+  color: var(--footer-color);
+  display: block;
+  padding: 5px 0;
+}
+
+.footer-item-link:hover {
+  color: var(--primary-color);
+}
+
+.footer-item-icon {
+  font-size: 1rem;
+  margin-right: 8px;
+}
+
+.footer-sale-ship {
+  display: flex;
+  flex-wrap: wrap;
+  width: 190px;
+}
+
+.footer-item-sale-ship {
+  width: 55px;
+  height: 29px;
+  margin: 4px;
+}
+
+.footer-item-link-fb:hover {
+  color: dodgerblue;
+}
+
+.footer-item-link-is:hover {
+  color: orangered;
+}
+
+.footer-item-link-li:hover {
+  color: royalblue;
+}
+
+.footer-download {
+  display: flex;
+}
+
+.footer-download-qr {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.footer-download-app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+  line-height: 30px;
+}
+
+.footer-download-app-img {
+  height: 16px;
+}
+
+.footer-download-link {
+  text-decoration: none;
+  color: transparent;
+}
+
+.copyright-title {
+  text-align: center;
+  color: var(--footer-color);
+  padding: 30px 10px;
+}
+
+.other-footer {
+  background-color: #eee;
+  padding: 40px 0;
+}
+
+.other-footer-heading {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 150px;
+  color: grey;
+}
+
+.other-footer-link {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--footer-color);
+}
+
+.other-footer-info {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.other-footer-title {
+  margin: 25px 0;
+  color: grey;
+}
+
+.other-footer-more {
+  margin: 8px 10px 0;
+  color: grey;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  margin-left: 40px;
+  color: grey;
+}
+.other-footer-info img {
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+}
+.image a {
+  margin-left: 30px;
+}
