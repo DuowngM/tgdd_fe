@@ -8,6 +8,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { renderCart } from "../../../redux/cart";
 import { useAppDispatch } from "../../../redux/hook";
 import { useLocation } from "react-router-dom";
+import axios from "axios";
 const Cart = () => {
   const location = useLocation();
   useEffect(() => {
@@ -54,8 +55,6 @@ const Cart = () => {
   const [cart, setCart] = useState<Cart[]>([]);
   const loadCart = async () => {
     const response = await publicAxios.get(`cart/${flaguser.user_id}`);
-    console.log(response);
-
     if (response.status === 200) {
       setCart(response.data.cart);
     }
@@ -172,7 +171,7 @@ const Cart = () => {
         return;
       }
     }
-    
+
     const newOrder = {
       customerId: flaguser?.user_id,
       total: calculatePaymentTotal(),
@@ -212,6 +211,18 @@ const Cart = () => {
       const change = localStorage.getItem("change");
       const effectChange = change ? JSON.parse(change) : undefined;
       setChangeLocal(effectChange);
+      const res = await axios.post(
+        "https://newtgdd.io.vn/api/payment/checkout",
+        {
+          total: calculatePaymentTotal(),
+        }
+      );
+      if (res.data.url) {
+        // Mở tab mới và điều hướng đến URL
+        window.open(res.data.url, "_blank");
+      } else {
+        console.log("Không có URL trong phản hồi");
+      }
       notification.success({
         message: "THANH TOÁN THÀNH CÔNG",
         style: {
@@ -279,7 +290,7 @@ const Cart = () => {
                   </div>
                   <div className="priceSp">
                     <p>
-                      {(cart?.price * cart?.quantity).toLocaleString() + "₫"}{" "}
+                      {(cart?.price * cart?.quantity).toLocaleString() + "$"}{" "}
                     </p>
                   </div>
                   <button
@@ -306,7 +317,7 @@ const Cart = () => {
             </div>
             <div className="temp-total-money">
               <span style={{ fontSize: 25 }}>
-                {calculateTotalMoney().toLocaleString() + "₫"}
+                {calculateTotalMoney().toLocaleString() + "$"}
               </span>
             </div>
           </div>

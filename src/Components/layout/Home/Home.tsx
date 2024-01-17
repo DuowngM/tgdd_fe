@@ -267,7 +267,7 @@ const Home = () => {
                         <b>{product.product_name}</b>
                       </p>
                       <p className="price-product">
-                        {product.price.toLocaleString() + "₫"}
+                        {product.price.toLocaleString() + "$"}
                       </p>
                       <p>
                         <b>

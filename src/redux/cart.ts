@@ -31,6 +31,8 @@ export const addToCart = createAsyncThunk(
   "addToCart",
   async ({ productId, userId }: { productId: number; userId: number }) => {
     try {
+      console.log("11111", productId, userId);
+
       const response = await publicAxios.post("/cart", {
         productId,
         userId,
